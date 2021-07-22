@@ -1,0 +1,55 @@
+img{
+    border-radius: 50%;
+    border:20px solid #555;
+
+}
+.float-right{
+    float: right
+}
+.rounded{
+    border-radius: 50%
+}
+.navbar{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.nav-item{
+    padding-left: 26px;
+    padding-right: 20px;
+    font-size:2.8vw;
+}
+.navbar-brand{
+    padding-left: 26px;
+    font-size:3.5vw ;
+    border-top: 26px;
+}
+.fwh-slide
+{
+    height: 45vw;
+    box-sizing: border-box;
+    padding-left: 26px;
+    background-color: rgb(189, 255, 252);
+    font-family: 'Times New Roman', Times, serif;
+    color: midnightblue;
+}
+.fwh-slide-1
+{
+    height: 33vw;
+    box-sizing: border-box;
+    padding-left: 26px;
+    background-color: rgb(189, 255, 252);
+    font-family: 'Times New Roman', Times, serif;
+    color: midnightblue;
+}
+
+@media screen and (min-width: 601px) {
+div.example {
+    font-size: 80px;
+}
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
